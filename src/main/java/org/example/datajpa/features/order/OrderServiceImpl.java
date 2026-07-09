@@ -2,6 +2,7 @@ package org.example.datajpa.features.order;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import org.example.datajpa.config.SecurityUtils;
 import org.example.datajpa.features.order.dto.*;
 import org.example.datajpa.features.orderLine.OrderLine;
 import org.example.datajpa.features.orderLine.OrderLineRepository;
@@ -51,7 +52,7 @@ public class OrderServiceImpl implements OrderService {
         if(!isValidTrue){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"Invalid order line.");
         }
-        order.setCustomerId("ISTAD");
+        order.setCustomerId(SecurityUtils.extractUserId());
         order.setIsDelete(false);
         order.setCreatedAt(LocalDateTime.now());
         order.setStatus(false);

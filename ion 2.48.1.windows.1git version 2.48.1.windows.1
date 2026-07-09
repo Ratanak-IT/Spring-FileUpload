@@ -1,0 +1,71 @@
+[33mcommit 15860c83e5f077b56a678be0d76e5da8cfbfe1a9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mASS03[m[33m, [m[1;31morigin/ASS03[m[33m, [m[1;31mgithub/master[m[33m, [m[1;31mgithub/HEAD[m[33m)[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Fri Jun 26 18:56:47 2026 +0700
+
+    create, findAll, findById, softDelete, hardDelete, payment
+
+[33mcommit e657f6c61b62a0e3462b5ea99cd09e7eb61df891[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Fri Jun 26 17:30:29 2026 +0700
+
+    push to main
+
+[33mcommit 292ae447285bda590d7360394fffe11f75829e8f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Wed Jun 24 16:29:11 2026 +0700
+
+    lest
+
+[33mcommit 203b7ec36612c316686b91fe855cbc04319dec5d[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Wed Jun 24 16:22:23 2026 +0700
+
+    file upload
+
+[33mcommit 8e4726179c3cc7bfb22f8ca179c4451f8502f4d6[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Tue Jun 23 19:27:28 2026 +0700
+
+    file System
+
+[33mcommit 293dd1c22d80bc472a29edb367ec560f4ab2a5e6[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Tue Jun 23 18:42:18 2026 +0700
+
+    product get create update delete(hard+soft)
+
+[33mcommit 8ac3e8ed91e9b69d5bc2b59db87c1ecca3597c95[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Mon Jun 8 20:03:05 2026 +0700
+
+    update patch put
+
+[33mcommit 872b4a277b42872eb99aa58009f3764551b5d72f[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Mon Jun 8 18:44:55 2026 +0700
+
+    update validation
+
+[33mcommit e60120f04f023ca8b654793253033afde2910142[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Mon Jun 8 17:31:52 2026 +0700
+
+    update response
+
+[33mcommit eec72147dbf55b4be3dd975f2b60eb84fcb4a6ec[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Mon Jun 8 17:15:23 2026 +0700
+
+     crud
+
+[33mcommit 30d9f7f750a5bd318c7dcf1089e602778e9739cb[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Fri Jun 5 22:52:32 2026 +0700
+
+    commit all
+
+[33mcommit fb683010e09a4c5bbe5a608cb9835eb460631785[m
+Author: ratanak <ratanakcoding.it@gmail.com>
+Date:   Thu Jun 4 15:58:51 2026 +0700
+
+    repository extends

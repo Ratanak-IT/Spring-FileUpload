@@ -57,10 +57,10 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Page<ProductResponse> getProducts(int page, int size) {
-        Sort sort = Sort.by(Sort.Direction.DESC, "id");
-        Pageable pageable = PageRequest.of(page, size, sort);
-        Page<Product> products = productRepository.findAll(pageable);
-        return products.map(productMapper::toProductResponse);
+    Sort sort = Sort.by(Sort.Direction.DESC,"id");
+    Pageable pages = PageRequest.of(page, size, sort);
+    return productRepository.findAll(pages)
+            .map(productMapper::toProductResponse);
     }
 
     @Override
@@ -110,8 +110,8 @@ public class ProductServiceImpl implements ProductService {
                     "Invalid product id"
             );
         }
-        Product exit = productRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found"));
+       Product exit = productRepository.findById(id)
+                       .orElseThrow(()-> new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found"));
         exit.setIsDelete(true);
         productRepository.save(exit);
     }

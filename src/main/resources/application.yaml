@@ -1,3 +1,5 @@
+
+
   minio:
     endpoint: http://localhost:9000
     access-key: admin
@@ -10,6 +12,11 @@
     base-uri: http://localhost:${server.port}${file.client-path}
 
   spring:
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: http://localhost:9999/realms/ite-ecommerce
     jpa:
       hibernate:
         ddl-auto: update
@@ -31,3 +38,9 @@
       name: DataJpa
   server:
     port: 8088
+  keycloak:
+    realm: master
+    server-url: http://localhost:9999
+    client-id: ite-ecommerce-spring-api
+    client-secret: VMhMDwB8X1jvkK5KV64Ymofnokm0FSr3
+    target-realm: ite-ecommerce
